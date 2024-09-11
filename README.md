@@ -35,31 +35,21 @@ Experiments are conducted on the [PolitiHop multi-hop fact-checking dataset](htt
 To facilitate analysis, we define a novel typology of common errors and unfaithfulness issues that arise in LLM-generated explanations. The typology is as follows:
 
 - **Intrinsic Entity-Related Errors**: Intrinsic entity-related errors occur when there is a mistake in representing named entities, quantities, dates, or other surface realizations from the given source within the generated explanation.  
-  *Example*: Incorrectly combining distinct entities from the given source.
 
 - **Extrinsic Entity-Related Errors**: Extrinsic entity-related errors involve the introduction of new entities that are not present in the given source into the generated explanation.  
-  *Example*: Hallucinating new entities that do not exist in the source.
 
 - **Intrinsic Event-Related Errors**: Intrinsic event-related errors pertain to mistakes in representing events mentioned in the generated explanation, leading to incorrect claims about events.  
-  *Example*: Making inaccurate claims about events mentioned in the explanation.
 
 - **Extrinsic Event-Related Errors**: Extrinsic event-related errors occur when the generated explanation includes new events that are not present in the given source.  
-  *Example*: Introducing fabricated events that are not supported by the source.
 
 - **Intrinsic Noun Phrase-Related Errors**: Intrinsic noun phrase-related errors are mistakes related to noun phrases, excluding entity-specific errors. They may involve miscombining noun phrases with incorrect modifiers from the given source.  
-  *Example*: Incorrectly combining a noun phrase with the wrong modifier from the source.
-
 - **Extrinsic Noun Phrase-Related Errors**: Extrinsic noun phrase-related errors involve the introduction of new noun phrase modifiers that are not present in the given source into the generated explanation.  
-  *Example*: Hallucinating new noun phrase modifiers not supported by the source.
 
 - **Reasoning Coherence Errors**: Reasoning coherence errors occur when there are logical flaws in the flow of reasoning within the generated explanation, leading to a lack of coherence or weak support for the claim.  
-  *Example*: Presenting evidence that does not logically connect to the main claim, resulting in a disjointed explanation.
 
 - **Overgeneralization Errors**: Overgeneralization errors happen when the generated explanation makes sweeping statements or draws conclusions that go beyond the scope of the evidence provided.
 
 - **Irrelevant Evidence Errors**: Irrelevant evidence errors occur when the generated explanation includes evidence that is not directly related to the claim, leading to confusion and lack of support for the main argument.  
-  *Example*: Including evidence that is tangential or unrelated to the claim being explained.
-
 
 
 ## Citation
